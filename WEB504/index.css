@@ -26,6 +26,7 @@ header {
     overflow: hidden;
 }
 
+
 article {
     float: left;
     padding: 20px;
@@ -51,14 +52,13 @@ aside {
     margin: 0;
     box-sizing: border-box;
 }
-
-
 aside img {
     width: 200px;
     height: auto;
     border: 3px solid #333;
     border-radius: 20px;
 }
+
 
 footer {
     background-color: #333;
