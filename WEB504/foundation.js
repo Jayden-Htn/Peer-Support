@@ -4,12 +4,20 @@
 
 // lets store information about a student
 // data types: string, number, boolean, array
-// variable types: let, var, const
 let name = "John";
 var age = 25;
 let local = true;
 const joinDate = "16/09/2023";
 let classes = ["WEB", "DAT", "SYD", "NET"];
+
+// variable types
+// var: function scope, re-declarable and re-assignable
+// let: block scope, not re-declarable and re-assignable
+// const: block scope, not re-declarable and not re-assignable
+
+// use const by default, use let if you need to re-assign
+// Declaring: let name = "John";
+// Re-assigning: name = "Jane";
 
 
 // convert to object
