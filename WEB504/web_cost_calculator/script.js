@@ -6,6 +6,7 @@ document.getElementById("calculate").addEventListener("click", function() {
     let labourCost = parseFloat(document.getElementById("labourCost").value);
     let additionalCost = parseFloat(document.getElementById("additionalCost").value);
 
+    // Validating values
     if (isNaN(gramsUsed) || isNaN(labourHours) || isNaN(labourCost) || isNaN(additionalCost)) {
         alert("Please ensure all fields are filled out correctly.");
         return;
